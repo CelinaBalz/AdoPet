@@ -1,9 +1,5 @@
 .cabecalho{
-    position: relative;
-    background-image: url(/assets/img/forma1.svg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    padding: 1.5rem;
 }
 
 .cabecalho__navbar{

@@ -26,9 +26,27 @@ body{
     color: var(--cinza);
     font-weight: 400;
     color: var(--azul);
+    line-height: 24px;
 }
 
 .versao-azul{
     background-color: var(--azul);
     color: var(--creme);
+    position: relative;
+    background-image: url(/assets/img/forma1.svg), url(/assets/img/forma2.svg);
+    background-position-x: 0%, right;
+    background-position-y: 0%, -60%;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-size: var(--titulos);
+    font-weight: 500;
+    padding-block: 1.5rem 1rem;
+}
+
+.texto{
+    position: relative;
+    width: 70vw;
+    text-align: center;
 }
