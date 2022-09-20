@@ -1,0 +1,21 @@
+@import url(_reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+:root{
+    --azul: #3772FF;
+    --verde:#36D6AD;
+    --coral:#FC7071;  
+    --coral-hover: #FF9D9E;  
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F6F6F6;
+
+    --poppins: 'Poppins', sans-serif;
+
+    --titulos: 26px;
+    --subtitulos: 16px;
+    --placeholder: 14px;
+}
