@@ -1,0 +1,36 @@
+.cabecalho{
+    position: relative;
+    background-image: url(/assets/img/forma1.svg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho__navbar{
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+    justify-content: left;
+    gap: 1.5rem;
+}
+
+.cabecalho__navbar__icones{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__navbar__home{
+    background-image: url(/assets/img/Casa.svg);
+}
+
+.cabecalho__navbar__mensagens{
+    background-image: url(/assets/img/Mensagens.svg);
+}
+
+.cabecalho__navbar__usuario{
+    margin-left: 6.5rem;
+}

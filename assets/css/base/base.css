@@ -16,6 +16,19 @@
     --poppins: 'Poppins', sans-serif;
 
     --titulos: 26px;
-    --subtitulos: 16px;
-    --placeholder: 14px;
+    --textos: 16px;
+    --descricoes: 14px;
+}
+
+body{
+    font-family: var(--poppins);
+    font-size: var(--textos);
+    color: var(--cinza);
+    font-weight: 400;
+    color: var(--azul);
+}
+
+.versao-azul{
+    background-color: var(--azul);
+    color: var(--creme);
 }
