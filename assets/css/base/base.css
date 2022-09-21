@@ -78,6 +78,11 @@ body{
     text-align: center;
 }
 
+.texto__alerta{
+    color: var(--coral);
+    font-size: 12px;
+}
+
 .espaçamentoDescricao{
     width: 80vw;
 }
