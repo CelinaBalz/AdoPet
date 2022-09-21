@@ -51,3 +51,10 @@ body{
     width: 70vw;
     text-align: center;
 }
+
+.logo{
+  display: block;
+  height: 46px;
+  width: 186.67px;
+  margin-top: 81.83px;
+}

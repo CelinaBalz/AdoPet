@@ -1,6 +1,3 @@
-.cabecalho{
-    padding: 1.5rem;
-}
 
 .cabecalho__navbar{
     margin-left: 1.2rem;
@@ -10,6 +7,8 @@
     padding-top: 1rem;
     justify-content: left;
     gap: 1.5rem;
+    padding-top: 48px;
+    padding-left: 47.98px;
 }
 
 .cabecalho__navbar__icones{
