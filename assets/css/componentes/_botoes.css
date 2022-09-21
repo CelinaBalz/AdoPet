@@ -16,6 +16,11 @@
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
 
+.botao-p{
+    padding-inline: 2.7rem;
+    display: block;
+}
+
 .botao:hover{
     background-color: var(--coral-hover);
 }

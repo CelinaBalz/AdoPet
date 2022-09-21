@@ -1,13 +1,16 @@
 @import url(_botoes.css);
 @import url(_cards.css);
-@import url(_inputs.css);
-@import url(_header.css);
-@import url(_footer.css);
+@import url(_formularios.css);
+@import url(_cabecalho.css);
+@import url(_rodape.css);
 
 .conteudo{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
+
+
 

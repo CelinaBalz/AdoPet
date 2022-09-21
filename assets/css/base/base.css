@@ -33,6 +33,7 @@ html, main{
 }
 main{
     position: relative;
+    height: 103vh;
 }
 
 body{
@@ -54,7 +55,16 @@ body{
     background-position-x: 0%, right;
     background-position-y: 0%, 20vh;
     background-repeat: no-repeat;
-    
+}
+
+.versao-creme{
+    background-color: #FFFFFF;
+    color: var(--azul);
+    position: relative;
+    background-image: url(/assets/img/forma1.svg), url(/assets/img/forma3.png);
+    background-position-x: 0%, left;
+    background-position-y: 0%, 55vh;
+    background-repeat: no-repeat;
 }
 
 .titulo{
@@ -65,8 +75,11 @@ body{
 
 .texto{
     position: relative;
-    width: 70vw;
     text-align: center;
+}
+
+.espaçamentoDescricao{
+    width: 80vw;
 }
 
 .logo{

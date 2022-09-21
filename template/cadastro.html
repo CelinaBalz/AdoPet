@@ -10,11 +10,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <title>AdoPet Tela Inicial</title>
+    <script src="https://kit.fontawesome.com/028f44d079.js" crossorigin="anonymous"></script>
 </head>
-<body class="versao-azul">
+<body class="versao-creme">
     <main>
 
-        <header class="cabecalho">
+        <header class="cabecalho cabecalho__patas">
             <ul class="cabecalho__navbar">
                 <a href="">
                     <li class="cabecalho__navbar__icones cabecalho__navbar__home"></li>
@@ -31,11 +32,35 @@
 </ul>
 </header>
 <div class="conteudo">
-    <img src="/assets/img/logo-creme.svg" alt="adopet logo" class="logo">
+    <img src="/assets/img/logo-azul.svg" alt="adopet logo" class="logo">
     <h2 class="titulo">Boas-vindas!</h2>
-    <p class="texto">Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-    
-    <a href="" class="botao">cadastrar</a>
+    <p class="texto">Ainda não tem cadastro? <br>
+        Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+    <form action="" class="formulario formulario-cadastro">
+        <div class="formulario-campo">
+            <label for="e-mail">Email</label>
+            <input name="e-mail" placeholder="Escolha seu melhor e-mail" type="text">
+        </div>
+        <div class="formulario-campo">
+            <label for="nome">Nome</label>
+            <input name="nome" placeholder="Digite seu nome completo" type="text">
+        </div>
+        <div class="formulario-campo">
+            <label for="senha">Senha</label>
+            <div class="formulario__campo-input">
+                <input name="senha" placeholder="Crie sua senha" type="text">
+                <i class="fa-solid fa-eye-slash fa-sm"></i>
+            </div>
+        </div>
+        <div class="formulario-campo">
+            <label for="senhaConfirmar">Confirme sua senha</label>
+            <div class="formulario__campo-input">
+                <input name="senhaConfirmar" placeholder="Repita a senha criada acima" type="text">
+                <i class="fa-solid fa-eye-slash fa-sm"></i>
+            </div>
+        </div>
+    </form>
+    <a href="" class="botao botao-p">cadastrar</a>
 </div>
 <footer class="rodape">
     <p class="rodape__texto">
