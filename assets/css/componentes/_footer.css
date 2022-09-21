@@ -1,0 +1,27 @@
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__texto{
+    position: bottom;
+    background-color: var(--verde);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-block: 2rem;
+    z-index: 1;
+}
+.rodape__img{
+    position: relative;
+    display: block;
+    width: 247px;
+    height: 312px;
+    margin-bottom: -30px;
+    z-index: 0;
+    padding-left: 33px;
+    padding-right: 79px;
+}

@@ -35,8 +35,9 @@ body{
     position: relative;
     background-image: url(/assets/img/forma1.svg), url(/assets/img/forma2.svg);
     background-position-x: 0%, right;
-    background-position-y: 0%, -60%;
+    background-position-y: 0%, 20vh;
     background-repeat: no-repeat;
+    
 }
 
 .titulo{
