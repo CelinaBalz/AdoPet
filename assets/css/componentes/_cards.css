@@ -1,0 +1,36 @@
+.card__pet{
+    background-color: var(--cinza-claro-fundos);
+    width: 100vw;
+}
+
+.card__pet{
+    display: flex;
+    flex-direction: row;
+    color: var(--cinza);
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-block: 0.4rem;
+    margin-block:1rem ;
+}
+
+.card__pet__img{
+    position: relative;
+}
+
+.card__texto{
+    margin-block: .8rem ;
+}
+
+.card__texto-cidade{
+    font-size: 12px;
+}
+
+.card__texto-contato{
+    font-size: 10px;
+    background-image: url(/assets/img/ícone\ mensagem.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 25px;
+}

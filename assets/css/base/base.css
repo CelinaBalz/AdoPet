@@ -47,6 +47,7 @@ body{
     position: relative;
 }
 
+
 .versao-azul{
     background-color: var(--azul);
     color: var(--creme);
@@ -67,10 +68,26 @@ body{
     background-repeat: no-repeat;
 }
 
+.versao-creme2{
+    background-color: #FFFFFF;
+    color: var(--azul);
+    position: absolute;
+    background-image: url(/assets/img/forma1.svg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+}
+
 .titulo{
     font-size: var(--titulos);
     font-weight: 500;
     padding-block: 1.5rem 1rem;
+}
+
+.titulo__secundario{
+    font-weight: 600;
+    color: var(--azul);
+    align-self: baseline;
 }
 
 .texto{
@@ -83,6 +100,7 @@ body{
     font-size: 12px;
 }
 
+
 .espaçamentoDescricao{
     width: 80vw;
 }
@@ -91,5 +109,4 @@ body{
   display: block;
   height: 46px;
   width: 186.67px;
-  margin-top: 81.83px;
 }
