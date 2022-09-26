@@ -34,6 +34,7 @@ html, main{
 main{
     position: relative;
     height: 103vh;
+    width: 100vw;
 }
 
 body{

@@ -3,6 +3,7 @@
 }
 
 .botao{
+    align-self: center;
     display: block;
     text-align: center;
     margin: 1rem;

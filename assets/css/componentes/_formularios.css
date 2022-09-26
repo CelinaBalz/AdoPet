@@ -3,20 +3,25 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-inline: 1.5rem;
+    width: 280px;
 }
 .formulario-campo{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-block: 1.2rem;
+    padding-inline: 1rem;
 }
 
 label{
     color: var(--cinza);
+    margin-bottom: .5rem;
+    text-align: center;
 }
 
 input{
-    padding-inline: 4rem ;
+    width: 17rem;
+    padding-inline: .5rem;
     padding-block: .8rem;
     border-radius: 6px;
     border: none;
@@ -56,4 +61,18 @@ i{
 .mensagem__input{
     background-color: white;
     margin-top: .5rem;
+}
+
+.formulario__campo-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formulario__campo-foto-usuario{
+    width: 8rem;
+}
+
+.dados{
+    text-align: start;   
 }

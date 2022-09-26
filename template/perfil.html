@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/base/base.css">
+    <link rel="stylesheet" href="/assets/css/componentes/componentes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>AdoPet Home</title>
+</head>
+<body class="versao-creme2">
+    <main>
+        <header class="cabecalho">
+            <ul class="cabecalho__navbar">
+        <a href="">
+            <li class="cabecalho__navbar__icones cabecalho__navbar__home"></li>
+        </a>
+        
+        <a href="">
+            <li class="cabecalho__navbar__icones cabecalho__navbar__mensagens"></li>
+        </a>
+           <li class="cabecalho__navbar__icones cabecalho__navbar__usuario">
+            <img src="/assets/img/usuario.svg" alt="" class="usuario-img">
+        </li>
+    </a>
+</ul>
+        </header>
+        <div class="conteudo">
+            <p class="texto">Esse é o perfil que aparece <br> para responsáveis ou ONGs <br> que recebem sua mensagem.</p>
+            <form action="" class="formulario formulario-mensagem">
+                <div class="formulario-campo">
+                    <div class="formulario-campo formulario__campo-foto">
+                            <label class="titulo__secundario" for="nome-mensagem">Foto</label>
+                            <img class="formulario__campo-foto-usuario" src="/assets/img/usuario.svg" alt="Foto de perfil escolhida pelo usuario">
+                            <a class="texto__alerta">Clique na foto para editar</a>
+                        </div>
+                        <div class="formulario-campo formulario__campo-input">
+                            <label class="titulo__secundario" for="nome-mensagem">Nome</label>
+                            <input class="mensagem__input dados" name="nome-mensagem" placeholder="Joana Magalhães" type="text">
+                            <i class="fa-solid fa-eye-slash fa-sm"></i>
+                        </div>
+                        <div class="formulario-campo">
+                            <label class="titulo__secundario" for="telefone-mensagem">Telefone</label>
+                            <input class="mensagem__input dados" name="telefone-mensagem" placeholder="55 11 XXXXXXXXX" type="text">
+                        </div>
+                        <div class="formulario-campo">
+                            <label class="titulo__secundario" for="animal-mensagem">Cidade</label>
+                            <input class="mensagem__input dados" name="animal-mensagem" placeholder="São Paulo" type="text">
+                        </div>
+                        <div class="formulario-campo">
+                            <label class="titulo__secundario" for="mensagem">Sobre</label>
+                            <textarea class="mensagem__input mensagem__input dados" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." name="Text1" cols="28" rows="9"></textarea>
+                        </div>
+                        <a href="" class="botao botao-p">Salvar</a>
+                    </form>
+                    </div>
+                    <footer class="rodape">
+                        <p class="rodape__texto">
+                            2022 - Desenvolvido por Alura.
+                        </p>
+                    </footer>
+</main>
+</body>
+</html>
