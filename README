@@ -16,7 +16,17 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
-### Construção
+### Semana 1
+Utilizar apenas HTML e CSS por meio da metodologia mobile-first;  
+Criar o visual do site baseado no figma disponibilizado;
+Engajar por meio do Trello e Discord;
+Compartilhar passo a passo do desenvolvimento no GitHub;
+##### Maiores desafios:
 
-Primeiro desafio: criar o site com a metodologia mobile first.
-Aqui já vou estar criando toda a base de pastas necessarias em CSS e HTML, importando dados e imagens necessárias e criando variáveis.
+[X] Deixar a ilustração da tela inicial fixa ao footer. 
+[X] Pensar em uma forma efetiva onde o background sobrepunha os cards dos pets como apresentado na tela Home.
+[X] Lidar com a quantidade incomum de variações de tamanho de fonte, cores e espaçamentos.
+Tempo de conclusão: 15h
+
+
+

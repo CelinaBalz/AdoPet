@@ -12,15 +12,24 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     padding-block: 0.4rem;
-    margin-block:1rem ;
+    margin-block:1rem ;   
+    position: relative;
+    left: 2%;
+}
+
+.cards__pets:last-child{
+    margin-bottom: 0px;
 }
 
 .card__pet__img{
     position: relative;
+    width: 120px;
+    height: 120px;
 }
 
 .card__texto{
     margin-block: .8rem ;
+
 }
 
 .card__texto-cidade{
@@ -33,4 +42,13 @@
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 25px;
+    color: var(--cinza);
+}
+
+.card__pet__descricao{
+    margin-inline: 41px;
+}
+
+a{
+    text-decoration: none;
 }
