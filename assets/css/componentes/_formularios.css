@@ -1,3 +1,9 @@
+
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .formulario-campo{
     display: flex;
     flex-direction: column;
@@ -21,7 +27,7 @@ input{
 }
 
 textarea{
-    padding-inline: 4rem ;
+    padding-inline: 1rem ;
     padding-block: .8rem;
     border-radius: 6px;
     border: none;
